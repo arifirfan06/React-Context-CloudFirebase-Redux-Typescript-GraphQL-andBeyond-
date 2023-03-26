@@ -13,13 +13,14 @@ import { getFirestore, doc, getDoc, setDoc, collection, writeBatch, query, getDo
 
 // make sure its written correctly
 const firebaseConfig = {
-  apiKey: "AIzaSyDnWaqZuwahYKrlpCOz6XxKZ8iwF2AGskg",
-  authDomain: "react-clothing-2197a.firebaseapp.com",
-  projectId: "react-clothing-2197a",
-  storageBucket: "react-clothing-2197a.appspot.com",
-  messagingSenderId: "452062679104",
-  appId: "1:452062679104:web:76741183b69e223331cfa5",
+  apiKey: "AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk",
+  authDomain: "crwn-clothing-db-98d4d.firebaseapp.com",
+  projectId: "crwn-clothing-db-98d4d",
+  storageBucket: "crwn-clothing-db-98d4d.appspot.com",
+  messagingSenderId: "626766232035",
+  appId: "1:626766232035:web:506621582dab103a4d08d6",
 };
+
 
 const firebaseApp = initializeApp(firebaseConfig);
 
