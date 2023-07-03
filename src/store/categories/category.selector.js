@@ -1,9 +1,8 @@
 import { createSelector } from "reselect";
 
-const selectState = (state) => state.categories;
 
 export const selectCtg = createSelector(
-  [selectState],
+  [(state) => state.category],
   (ctgReducer) => ctgReducer.categories
 );
 

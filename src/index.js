@@ -15,7 +15,7 @@ render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <PersistGate persistor={persistor}>
+        {/* <PersistGate persistor={persistor}> */}
           {/* <UserProvider> */}
           {/* <CategoryProvider> */}
           {/* <CartProvider> */}
@@ -23,7 +23,7 @@ render(
           {/* </CartProvider> */}
           {/* </CategoryProvider> */}
           {/* </UserProvider> */}
-        </PersistGate>
+        {/* </PersistGate> */}
       </BrowserRouter>
     </Provider>
   </React.StrictMode>,

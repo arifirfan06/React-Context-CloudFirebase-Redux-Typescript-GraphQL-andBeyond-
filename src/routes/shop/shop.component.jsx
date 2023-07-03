@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import Category from "../category/ctg";
 import { getCategory } from '../../utils/firebase/firebase.utils';
 import { useEffect } from "react";
-import { setCategories } from "../../store/categories/category.action";
+import { setCategories } from "../../store/categories/category.reducer";
 import "./shop.styles.scss";
 
 const Shop = () => {
